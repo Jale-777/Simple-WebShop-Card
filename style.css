@@ -1,0 +1,35 @@
+body {
+    background-color: darkseagreen;
+}
+
+.card {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: black;
+}
+
+.card button:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+#price {
+    font-size: 20px;
+    color: rgb(172, 172, 172);
+}
